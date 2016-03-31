@@ -2,12 +2,8 @@ identidock80:
     build: .
     expose:
         - "9090"
-    ports:
-        - "5000:5000"
     environment:
         - ENV=prod
-    volumes:
-        - ./app:/app
     links:
         - dnmonster
         - redis
