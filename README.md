@@ -1,4 +1,4 @@
-identidock30
+identidock80
 ============
 
 Simple identicon server based on monsterid from Kevin Gaudin.
